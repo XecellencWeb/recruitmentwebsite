@@ -348,6 +348,8 @@ body{
     background-position: center;
     padding-top: var(--desktopnavmar);
     height: 100vh;
+    overflow: hidden;
+    
     @media (max-width:59.99rem) {
         display: none;
     }
@@ -371,6 +373,7 @@ body{
     display: flex;
     height: 90%;
     align-items: center;
+    
 }
 .inbox-logo{
     width: 2.5rem;
