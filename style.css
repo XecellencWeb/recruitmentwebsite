@@ -247,7 +247,7 @@ body{
 
 .mobile-footer{
     position: relative;
-    padding-block: 1rem;
+    padding-block: .5rem 1rem;
     display: flex;
     background: rgb(244, 244, 244);
 }
