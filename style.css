@@ -106,7 +106,7 @@ body{
     box-shadow: 0 0 2rem rgb(168, 168, 168);
     padding-inline: var(--spacing);
     padding-block: calc(var(--spacing) * 1.5);
-
+    z-index: 100;
 
     &::before{
         content: '';
