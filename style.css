@@ -80,13 +80,19 @@ body{
     margin: 0;
 }
 .navitems-child-desktop > a{
-    
+    font-size: .95rem;
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 .features-controller.navitems-child-desktop{
     height: 3.8vh;
+    
+}
+
+.features-container-desktop > .navitems-child-desktop > a{
+    font-size: .85rem;
+    
     
 }
 
