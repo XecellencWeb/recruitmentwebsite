@@ -529,6 +529,8 @@ body{
 }
 
 .logo-at-first{
+    width: 3.5rem;
+    aspect-ratio: 1;
     opacity: 0;
     animation: fading-movement 2s infinite;
 }
