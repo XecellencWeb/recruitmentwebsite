@@ -349,7 +349,7 @@ body{
     padding-top: var(--desktopnavmar);
     height: 100vh;
     overflow: hidden;
-    
+
     @media (max-width:59.99rem) {
         display: none;
     }
@@ -418,7 +418,7 @@ body{
     margin-top: 0;
 }
 .white-speaker-wrapper{
-    width: min(100% - 2rem, 20rem);
+    width: min(100% - 3rem, 20rem);
     background: white;
     margin-inline: auto;
     border-radius: .5rem;
