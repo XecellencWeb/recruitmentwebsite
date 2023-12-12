@@ -80,13 +80,13 @@ body{
     margin: 0;
 }
 .navitems-child-desktop > a{
-    font-size: var(--smallfont);
+    
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
 .features-controller.navitems-child-desktop{
-    
+    height: 3.8vh;
     
 }
 
