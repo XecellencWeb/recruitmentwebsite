@@ -174,7 +174,7 @@ body{
 }
 
 .logo-mobile{
-    width: 4rem;
+    width: 3rem;
     aspect-ratio: 1;
 }
 
@@ -238,7 +238,7 @@ body{
 }
 
 .mobile-footer .logo-mobile{
-    width: 3rem;
+    width: 2rem;
     margin-left: var(--spacing);
 }
 
