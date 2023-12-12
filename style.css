@@ -18,8 +18,10 @@ body{
 }
 
 *{
+    font-size: 1rem;
     font-family: sans-serif;
     box-sizing: border-box;
+    color: rgb(22, 22, 22);
 }
 
 #mobile-view > *, #mobile-view *{
@@ -221,7 +223,7 @@ body{
 .agree-btn{
     width: 80%;
     margin-inline: auto;
-    background: rgb(32, 32, 156);
+    background: rgb(82, 104, 255);
     display: block;
     color: white;
     padding-block: 1rem;
@@ -233,8 +235,9 @@ body{
 
 
 .mobile-footer{
+    padding-top: .5rem;
     display: flex;
-    background: #f0efef;
+    background: rgb(244, 244, 244);
 }
 
 .mobile-footer .logo-mobile{
