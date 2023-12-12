@@ -86,7 +86,7 @@ body{
     font-weight: 500;
 }
 .features-controller.navitems-child-desktop{
-    height: 3.8vh;
+    
     
 }
 
@@ -386,6 +386,9 @@ body{
     line-height: 1.5;
     margin-bottom: 3rem;
     
+}
+.expand-btn{
+    border: 2px solid red;
 }
 .highlight-speaker-text{
     font-weight: 700;
