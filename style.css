@@ -423,7 +423,7 @@ body{
 
 .main-speaker-wrapper{
     width: 82ch;
-    
+    margin-inline: 1rem;
     color: white;
     
 }
