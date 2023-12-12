@@ -367,7 +367,7 @@ body{
 .inbox-logo{
     width: 2.5rem;
     aspect-ratio: 1;
-    margin-block: 1.5rem;
+    margin-block: .6rem 1.5rem;
 }
 .speaker-text{
     font-size: 2.2rem;
