@@ -393,7 +393,7 @@ body{
     font-size: 2rem;
 }
 .white-speaker{
-    width: 40%;
+    width: 35%;
 
     @media (max-width:80rem) {
         width: 70%;
