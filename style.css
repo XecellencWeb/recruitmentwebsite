@@ -221,7 +221,7 @@ body{
 }
 
 .agree-btn{
-    width: 80%;
+    width: 75%;
     margin-inline: auto;
     background: rgb(82, 104, 255);
     display: block;
@@ -231,6 +231,10 @@ body{
     border-radius: 5rem;
     margin-top: 3rem;
     text-decoration: none;
+}
+
+.terms{
+    color: rgb(82, 104, 225);
 }
 
 
