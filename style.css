@@ -485,7 +485,7 @@ body{
     padding-inline: 2rem;
 }
 .main-speaker-bottom-part{
-    height: 7vh;
+    margin-block: 2rem;
     display: flex;
     align-items: center;
 }
