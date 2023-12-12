@@ -34,7 +34,7 @@ body{
     position: relative;
 }
 
-.features-container-desktop[data-visible=false]{
+.features-container-desktop[data-visible=false],.langs[data-visible=false]{
     display: none;
 }
 
@@ -167,7 +167,7 @@ body{
     align-items: center;
     border-bottom: 1px solid #ccc;
     height: 7vh;
-
+    background: white;
     @media (min-width:60rem) {
         display: none;
     }
@@ -202,7 +202,7 @@ body{
     max-width: 18rem;
     margin-inline: auto;
     text-align: center;
-    height: 77vh;
+    height: 79vh;
 }
 
 .main-heading{
@@ -246,10 +246,42 @@ body{
 
 
 .mobile-footer{
-    padding-top: 1rem;
+    position: relative;
+    padding-block: 1rem;
     display: flex;
     background: rgb(244, 244, 244);
 }
+
+
+
+
+.langs{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 25% -50%;
+    background-color: white;
+    border: 1px solid #b6b6b6;
+    height: 15rem;
+    width: 13rem;
+    overflow-y: auto;
+    border-radius: .5rem;
+}
+
+.langs::-webkit-scrollbar{
+    width: 0;
+}
+
+.langs > .links-child{
+    font-size: 1rem;
+    line-height: 1.5;
+
+    &:first-child{
+        color: rgb(82, 104, 225);
+    }
+}
+
+
 
 .mobile-footer .logo-mobile{
     width: 2rem;
@@ -263,10 +295,17 @@ body{
 .lang-controller{
     padding-top: .5rem;
     display: flex;
+    
 }
 
 .expand-button{
     padding-top: .3rem;
+}
+
+.lang-controller > .expand-button{
+    padding-top: .1rem;
+    width: 1rem;
+    margin-left: .2rem;
 }
 
 .links-child,.lang-controller-head{
@@ -380,6 +419,10 @@ body{
     
 }
 
+.main-speaker-wrapper > *, .main-speaker-wrapper *{
+    color: white;
+}
+
 .main-speaker-wrapper > h1{
     line-height: 1.1;
     font-size: 4.2rem;
@@ -429,7 +472,7 @@ body{
 
 
 .accept-btn{
-    background: rgb(41, 41, 248);
+    background: rgb(82, 105, 255);
     padding-inline: 2rem;
 }
 .main-speaker-bottom-part{
@@ -448,6 +491,7 @@ body{
     & > p{
         margin-right: 3rem;
         font-size: 1rem;
+        color: white;
     }
 }
 
@@ -494,3 +538,4 @@ body{
 .not-seen-default{
  display: none;   
 }
+

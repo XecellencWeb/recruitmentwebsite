@@ -4,6 +4,8 @@ const desktopMenu = document.querySelector('.features-controller.navitems-child-
 const mobileBody = document.querySelector('.mobile-body')
 const featuresContainer = document.querySelector('.features-container-desktop')
 const desktopBody = document.querySelector('.desktop-view')
+const langs = document.querySelector('.langs')
+const langsController = document.querySelector('.lang-controller')
 
 
 
@@ -34,7 +36,10 @@ const closeMenus = (element)=>{
     }
 }
 
-mobileBody.onclick = ()=>closeMenus(navContainer)
+mobileBody.onclick = ()=>{
+    closeMenus(langs)
+    closeMenus(navContainer)
+}
 
 desktopMenu.onclick = (e)=> openMenus(e,featuresContainer)
 
@@ -51,3 +56,18 @@ setTimeout(()=>{
     seenDefault.style.display = 'none'
     
 },2000)
+
+
+
+const languages = ['English','Nederlands','Italiano','Francais','Deutsch','Espanol','Polski','Portugues','Portugues Brasil','Espanol Latino','Turkce','Bokmal','Dansk','Svenska']
+
+
+languages.forEach(
+    lang=>langs.innerHTML += `<p class='links-child'>${lang}</p>`
+)
+
+
+langsController.onclick = (e)=> openMenus(e,langs)
+
+
+
