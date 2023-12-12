@@ -393,7 +393,11 @@ body{
     font-size: 2rem;
 }
 .white-speaker{
-    width: 35%;
+    width: 50%;
+
+    @media (max-width:80rem) {
+        width: 100%;
+    }
 }
 .speaking-section{
     padding: 2rem;
@@ -422,8 +426,8 @@ body{
 }
 
 .main-speaker-wrapper{
-    width: 82ch;
-    margin-inline: 1rem;
+    width: min(100% - 2rem,82ch);
+    
     color: white;
     
 }
