@@ -4,7 +4,7 @@
 
 :root{
     --spacing:1rem;
-    --smallfont:.9rem;
+    --smallfont:.7rem;
     --navbg-color: white;
     --desktopnavmar: .5rem;
 }
@@ -247,7 +247,7 @@ body{
 
 
 .mobile-footer{
-    padding-top: .5rem;
+    padding-top: 1rem;
     display: flex;
     background: rgb(244, 244, 244);
 }
