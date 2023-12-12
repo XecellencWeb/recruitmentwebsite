@@ -109,7 +109,7 @@ body{
 .navitems-child > a, .navitems-child a{
     text-decoration: none;
     color: #333;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .navitems-child{
@@ -174,7 +174,7 @@ body{
 }
 
 .logo-mobile{
-    width: 4.5rem;
+    width: 4rem;
     aspect-ratio: 1;
 }
 
@@ -186,7 +186,7 @@ body{
 .sign-up{
     text-align: right;
     margin-right: var(--spacing);
-    font-size:1.2rem;
+    font-size:1rem;
 }
 
 .mobile-body{
@@ -202,12 +202,13 @@ body{
     margin: 0;
 }
 
-.main-heading,.main-text{
-    font-size: 2.5rem;
+.main-heading{
+    font-size: 2.4rem;
 
 }
 
 .main-text{
+    font-size: 2.3rem;
     line-height: 1.3;
 }
 
@@ -218,11 +219,12 @@ body{
 }
 
 .agree-btn{
-    width: 100%;
+    width: 80%;
+    margin-inline: auto;
     background: rgb(32, 32, 156);
     display: block;
     color: white;
-    padding-block: 1.3rem;
+    padding-block: 1rem;
     font-size: 1.2rem;
     border-radius: 5rem;
     margin-top: 3rem;
@@ -236,7 +238,7 @@ body{
 }
 
 .mobile-footer .logo-mobile{
-    width: 3.5rem;
+    width: 3rem;
     margin-left: var(--spacing);
 }
 
