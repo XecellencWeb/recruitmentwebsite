@@ -190,6 +190,8 @@ body{
 .logo-mobile{
     width: 3rem;
     aspect-ratio: 1;
+    position: relative;
+    left: -.6rem;
 }
 
 .menu-icon{
